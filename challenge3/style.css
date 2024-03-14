@@ -1,0 +1,47 @@
+
+body{
+    color: white;
+    background-color: black;
+}
+#top{
+    text-align: center;
+    color: mediumblue;
+}
+
+img{
+    height: 60vh;
+    width: 60vw;
+    box-sizing: border-box;
+    box-shadow: rgb(99, 100, 100) 10px 10px;
+    margin: 30px;
+}
+
+
+
+audio{
+    background-color: cyan;
+    margin: 30px;
+}
+
+
+video{
+    height: 500px;
+    width: 500px;
+    margin: 30px;
+}
+
+a{
+    text-decoration: none;  
+    margin: 30px;
+}
+
+iframe{
+    margin: 30px;
+}
+
+#gotop{
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    font-size: 30px;
+}

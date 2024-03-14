@@ -1,0 +1,36 @@
+html{
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+
+.counter-Block{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(150, 178, 204);
+    width: 50%;
+}
+
+h1{
+    border: 1px solid grey;
+}
+
+.counter-value{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.btn{
+    padding: 10px 16px;
+    background-color: aqua;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    color: blue;
+    background-color: beige;
+    border-radius: 4px;
+}

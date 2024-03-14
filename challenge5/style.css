@@ -1,0 +1,64 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 10px 20px;
+    background-color: rgb(48, 45, 45);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+nav{
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(213, 213, 219);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    width: 40%;
+    margin: auto;
+}
+
+.container{
+    display: grid;
+    height: 200px;
+    grid-template-columns: auto auto;
+    gap: 1em;
+    grid-template-areas: 
+    "sidebar  main main main"
+    "sidebar  main main main";
+
+    padding: 10px;
+    margin: 10px;
+    width: 70vw;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(230, 230, 236);
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    grid-area: main;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 10px;
+    
+}
